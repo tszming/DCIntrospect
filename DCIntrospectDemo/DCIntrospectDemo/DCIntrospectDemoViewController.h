@@ -12,8 +12,8 @@
 {
 }
 
-@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *activityIndicator;
-@property (nonatomic, retain) IBOutlet UILabel *label;
+@property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (nonatomic, strong) IBOutlet UILabel *label;
 
 - (IBAction)buttonTapped:(id)sender;
 - (IBAction)switchChanged:(id)sender;

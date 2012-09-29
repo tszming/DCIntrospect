@@ -12,7 +12,7 @@
 {
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet DCIntrospectDemoViewController *viewController;
+@property (nonatomic, strong) IBOutlet UIWindow *window;
+@property (nonatomic, strong) IBOutlet DCIntrospectDemoViewController *viewController;
 
 @end

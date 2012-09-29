@@ -9,11 +9,6 @@
 @implementation DCCrossHairView
 @synthesize color;
 
-- (void)dealloc
-{
-	[color release];
-	[super dealloc];
-}
 
 - (id)initWithFrame:(CGRect)frame color:(UIColor *)aColor
 {
